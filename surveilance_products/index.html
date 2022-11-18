@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://use.fontawesome.com/9bb7655a75.js"></script>
+	<link rel="stylesheet" href="style.css" />
+	<script src="./data.json" type="text/javascript"></script>
+	<title>E-CART</title>
+</head>
+
+<body>
+	<div id="container">
+	<!-- Start NABAR -->
+	<header class="hedstyle">
+		<span><i class="fa fa-arrow-left" aria-hidden="true"></i><span class="Bkstyle">Back</span></span>
+	</header>
+	<!--  NABAR -->
+<div class="mainRow">
+	<!-- Start First segment of Product Display-->
+	<div class="First_seg column">
+		<section id="product_image_sec" class="Product-image use_tooltip">
+			<img src="" class="img_style" id="product_image" />
+
+			<span class="tooltip_img">
+				<img src="" id="full_product_image" />
+			</span>
+			<!--USE TOOLTIP CSS TO DESIGN 0VERLAY-->
+
+			<!-- Start SELECTION OF IMAGES BASED ON USER ACTION CODE -->
+		</section>
+		<section class="Selectionimg" id="other_images">
+		</section>
+		<!-- END SELECTION OF IMAGES BASED ON USER ACTION CODE -->
+	</div>
+	<!-- End First segment of Product Display-->
+
+
+	<!--Start second segment for product details and add-ons display-->
+	<div class="Second_seg column">
+		<!--Start of product details display-->
+		<p class="P_title bolder"></p>
+		<p class="ratings bold"></p>
+		<div style="margin: 1vh 0;">
+		<p class="Disc_color bolder"></p>
+	   </div>
+	   <div>
+		<span class="selected_item_cost">
+			<strong class="discounted_price bold"></strong>
+		</span>
+		<span class="Original_price bold"></span>
+	   </div>
+		<div class="packs">
+			<p>Multi-Pack:</p>
+			<div class="Pack_selection"></div>
+		</div>
+		<div class="warranty">
+			<p>Choose your Warranty</p>
+			<div class="Warranty_selection"></div>
+		</div>
+		<br />
+		<hr class="product_divide_hr" />
+		<button id="addToCart">ADD TO CART</button>
+		<div id="quantity">
+			<span id="Sub"><i class="fa fa-minus"></i></span>
+			<span>1</span>
+			<span id="Add"><i class="fa fa-plus"></i></span>
+		</div>
+		<!--End of product details display-->
+		<!--Start of add-ons display-->
+		
+		<div class="add_ons_main_container">
+			<p class="bold">Add-on Products</p>
+			<div class="add_ons_container ">
+			</div>
+		</div>
+		<!--End of add-ons display-->
+	</div>
+	<!--End of second segment for product details and add-ons display-->
+
+	<div class="Third_seg colmun">
+
+		<strong style="padding-left: 10px;">Price Summary</strong>
+
+		<div
+			style="display:flex;flex-direction:row; border-top:1px dashed rgb(104, 103, 103);   justify-content: space-between;padding: 10px 0px 0px 10px;">
+			<span>Main product</span><span class="total_product_price">$199.99</span>
+		</div>
+		<br />
+		<div
+			style="display:flex;flex-direction:row; border-bottom:1px dashed rgb(104, 103, 103); justify-content: space-between;padding-left: 10px;padding: 20px 0px 10px 10px;">
+			<span><span class="total_add_ons_count">3</span> add-ons selected</span>
+			<span>+ <span class="total_add_ons_price">$242.96</span></span>
+		</div>
+
+		<div
+			style="display:flex;flex-direction:row;  justify-content: space-between;padding-left: 10px;padding: 20px 0px 0px 10px;">
+			<span>Total price</span>
+			<strong><span
+					style="margin-left:30px; text-decoration: line-through;" class="total_original_price">$299.99</span>&nbsp;&nbsp;<span
+					class="selected_item_cost total_discounted_price">$300.99</span><strong>
+		</div>
+		<p style="float: right;font-size: small;">SAVE <span class="total_discount">$70.00</span> (<span class="total_discount_percentage">35</span>%)</p><br style="clear:right" />
+		<input type="button" id="Add_items" value="Add  0 items to cart">
+		
+	</div>
+</div>
+</div>
+   
+	<script src="./js/script.js" type="text/javascript"></script>
+	<script src="./js/product_images.js" type="text/javascript"></script>
+	<script src="./js/product_cart.js" type="text/javascript"></script>
+	<script src="./js/ratings.js" type="text/javascript"></script>
+	<script src="./js/product_packs.js" type="text/javascript"></script>
+	<script src="./js/warranty.js" type="text/javascript"></script>
+	<script src="./js/product_details.js" type="text/javascript"></script>
+	<script src="./js/add_ons_details.js" type="text/javascript"></script>
+	<script src="./js/cart_actions.js" type="text/javascript"></script>
+	
+	
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+/* Expected data object info */
+data_obj = {
+    "product" : {
+        "images" : [
+            "./images/image1.png",
+            "./images/image2.png",
+            "./images/image3.png",
+            "./images/image4.png"
+        ],
+        "title" : "MPX HD 1080p Outdoor PTZ Camera, 4x Optical Zoom with Color Night Vision, Metal Camera",
+        "model" : "",
+        "review_count" : 90,
+        "avg_rating" : 5,
+        "discount" : 100.00,
+        "original_price" : 299.99,
+        "discounted_price" : 199.99,
+        "pack_sizes" : [1,2,4],
+        "warranty_packs" : {
+            "unit" : "Year",
+            "prices" : {
+                "2" : 59.99,
+                "3" : 79.99,
+                "4" : 94.99 
+            }
+        },
+        "deal_of_the_day" : false
+    },
+    "add_ons" : [
+        {
+            "images" : [
+                "./images/image5.png"
+            ],
+            "title" : "4K Ultra HD 8 Channel Security DVR with...",
+            "model" : "LRXSHOP8",
+            "review_count" : 12,
+            "avg_rating" : 5,
+            "discount" : 170.00,
+            "original_price" : 299.99,
+            "discounted_price" : 129.99,
+            "pack_sizes" : [1,2,4],
+            "warranty_packs" : {},
+            "deal_of_the_day" : true
+        },
+        {
+            "images" : [
+                "./images/image6.png"
+            ],
+            "title" : "100ft (30m) Premium 4K RG59/Power Accessory Cable",
+            "model" : "LRXSHOP8",
+            "review_count" : 12,
+            "avg_rating" : 5,
+            "discount" : 100.00,
+            "original_price" : 149.99,
+            "discounted_price" : 49.99,
+            "pack_sizes" : [1],
+            "warranty_packs" : {},
+            "deal_of_the_day" : false
+        },
+        {
+            "images" : [
+                "./images/image7.png"
+            ],
+            "title" : "256GB Surveillance-grade microSD card",
+            "model" : "LRXSHOP8",
+            "review_count" : 12,
+            "avg_rating" : 5,
+            "discount" : 100.00,
+            "original_price" : 164.99,
+            "discounted_price" : 49.99,
+            "pack_sizes" : [1],
+            "warranty_packs" : {},
+            "deal_of_the_day" : false
+        }
+    ]
+}
